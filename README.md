@@ -1,3 +1,5 @@
+**Prepare By: Suhaimi Alfonso**
+
 # Electronics Retail Sales Dataset 📊
 
 <p align="center">
