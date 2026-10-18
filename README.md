@@ -1,4 +1,4 @@
-**Prepare By: Suhaimi Alfonso**
+**Prepared By: Suhaimi Alfonso**
 
 # Electronics Retail Sales Dataset 📊
 
