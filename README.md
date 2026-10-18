@@ -1,4 +1,5 @@
 **Prepared By: Suhaimi Alfonso**
+**Dataset Used: Prodct Sales**
 
 # Electronics Retail Sales Dataset 📊
 
