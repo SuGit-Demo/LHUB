@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
+import pandas as pd
 
 # Load the model directly from the repository environment
 model = joblib.load('salesregression.pkl')
@@ -16,5 +17,20 @@ val5 = st.number_input("Feature 5", value=0.0)
 val6 = st.number_input("Feature 6", value=0.0)
 
 if st.button("Predict"):
-    prediction = model.predict(np.array([[val1, val2, val3, val4, val5, val6]]))
+    # 1. Arrange inputs into a dictionary mapping to your exact original dataset column names
+    input_dict = {
+        "Column_Name_1": [val1],
+        "Column_Name_2": [val2],
+        "Column_Name_3": [val3],
+        "Column_Name_4": [val4],
+        "Column_Name_5": [val5],
+        "Column_Name_6": [val6]
+    }
+    
+    # 2. Convert the dictionary into a pandas DataFrame
+    input_df = pd.DataFrame(input_dict)
+    
+    # 3. Pass the DataFrame to the model instead of the numpy array
+    prediction = model.predict(input_df)
+    
     st.success(f"Prediction: {prediction[0]}")
