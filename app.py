@@ -6,7 +6,7 @@ import pandas as pd
 # Load the model directly from the repository environment
 model = joblib.load('salesregression.pkl')
 
-st.title("🤖 Cloud-Hosted ML Predictor")
+st.title("🤖 Sales ML Predictor")
 
 # Input fields
 val1 = st.text_input("Product", value=0.0)
