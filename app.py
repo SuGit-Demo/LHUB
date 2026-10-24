@@ -16,5 +16,5 @@ val5 = st.number_input("Feature 5", value=0.0)
 val6 = st.number_input("Feature 6", value=0.0)
 
 if st.button("Predict"):
-    prediction = model.predict(np.array([text[val1, val2, val3, val4, val5, val6]]))
+    prediction = model.predict(np.array([[val1, val2, val3, val4, val5, val6]]))
     st.success(f"Prediction: {prediction[0]}")
