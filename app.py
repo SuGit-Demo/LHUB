@@ -19,12 +19,12 @@ val6 = st.number_input("Feature 6", value=0.0)
 if st.button("Predict"):
     # 1. Arrange inputs into a dictionary mapping to your exact original dataset column names
     input_dict = {
-        "Column_Name_1": [val1],
-        "Column_Name_2": [val2],
-        "Column_Name_3": [val3],
-        "Column_Name_4": [val4],
-        "Column_Name_5": [val5],
-        "Column_Name_6": [val6]
+        "Product": [val1],
+        "Category": [val2],
+        "Region": [val3],
+        "Quantity": [val4],
+        "Unit_Price": [val5],
+        "Discount": [val6]
     }
     
     # 2. Convert the dictionary into a pandas DataFrame
