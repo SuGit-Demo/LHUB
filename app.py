@@ -30,8 +30,8 @@ if st.button("Predict"):
     # 2. Print each field name and its variable value
     st.subheader("Input Field Names and Values")
 
-    for field, value in input_dict.items():
-        st.write(f"**{field}:** {value[0]}")
+    for field in input_dict.keys():
+    st.write(field)
         
     # 3. Convert the dictionary into a pandas DataFrame
     input_df = pd.DataFrame(input_dict)
