@@ -27,16 +27,10 @@ if st.button("Predict"):
         "Discount": [val6]
     }
 
-    # 2. Print each field name and its variable value
-    st.subheader("Input Field Names and Values")
-
-    for field in input_dict.keys():
-        st.write(field)
-        
-    # 3. Convert the dictionary into a pandas DataFrame
+    # 2. Convert the dictionary into a pandas DataFrame
     input_df = pd.DataFrame(input_dict)
     
-    # 4. Pass the DataFrame to the model instead of the numpy array
+    # 3. Pass the DataFrame to the model instead of the numpy array
     prediction = model.predict(input_df)
     
     st.success(f"Prediction: {prediction[0]}")
