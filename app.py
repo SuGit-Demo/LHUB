@@ -9,12 +9,12 @@ model = joblib.load('salesregression.pkl')
 st.title("🤖 Cloud-Hosted ML Predictor")
 
 # Input fields
-val1 = st.text_input("Feature 1", value=0.0)
-val2 = st.text_input("Feature 2", value=0.0)
-val3 = st.text_input("Feature 3", value=0.0)
-val4 = st.number_input("Feature 4", value=0.0)
-val5 = st.number_input("Feature 5", value=0.0)
-val6 = st.number_input("Feature 6", value=0.0)
+val1 = st.text_input("Product", value=0.0)
+val2 = st.text_input("Category", value=0.0)
+val3 = st.text_input("Region", value=0.0)
+val4 = st.number_input("Quantity", value=0.0)
+val5 = st.number_input("Unit_Price", value=0.0)
+val6 = st.number_input("Discount", value=0.0)
 
 if st.button("Predict"):
     # 1. Arrange inputs into a dictionary mapping to your exact original dataset column names
