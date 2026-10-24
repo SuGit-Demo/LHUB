@@ -31,7 +31,7 @@ if st.button("Predict"):
     st.subheader("Input Field Names and Values")
 
     for field in input_dict.keys():
-    st.write(field)
+        st.write(field)
         
     # 3. Convert the dictionary into a pandas DataFrame
     input_df = pd.DataFrame(input_dict)
