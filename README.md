@@ -1,6 +1,8 @@
 * **Prepared By: Suhaimi Alfonso**
 * **Dataset Used: Product Sales**
 * **Streamlit URL: https://sudemo.streamlit.app/**
+* **Link to Jupyter Notebook in Google Colab:
+  https://colab.research.google.com/drive/1zdPR2ig9qFp6Q1gPrZvky3Ac7UITW3Mv?usp=sharing**
 
 # Electronics Retail Sales Dataset 📊
 
@@ -36,9 +38,6 @@ It serves as an excellent resource for exploratory data analysis (EDA), sales pe
 * **Time Horizon:** January 2026 – June 2026
 * **Target Category:** Electronics
 * **Key Entities:** Products, Sales Team, Regional Markets, Revenue Metrics
-
-  Link to Jupyter Notebook in Google Colab:
-  https://colab.research.google.com/drive/1zdPR2ig9qFp6Q1gPrZvky3Ac7UITW3Mv?usp=sharing
    
 ## 🗂️ Data Dictionary
 
