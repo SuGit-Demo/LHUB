@@ -1,5 +1,5 @@
 * **Prepared By: Suhaimi Alfonso**
-* **Dataset Used: Prodct Sales**
+* **Dataset Used: Product Sales**
 * **Streamlit URL: https://sudemo.streamlit.app/**
 
 # Electronics Retail Sales Dataset 📊
