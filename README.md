@@ -1,8 +1,9 @@
 * **Prepared By: Suhaimi Alfonso**
 * **Dataset Used: Product Sales**
 * **Streamlit URL: https://sudemo.streamlit.app/**
-* **Link to Jupyter Notebook in Google Colab:
-  https://colab.research.google.com/drive/1zdPR2ig9qFp6Q1gPrZvky3Ac7UITW3Mv?usp=sharing**
+* **Link to Jupyter Notebook in Google Colab:**
+
+* **https://colab.research.google.com/drive/1zdPR2ig9qFp6Q1gPrZvky3Ac7UITW3Mv?usp=sharing**
 
 # Electronics Retail Sales Dataset 📊
 
